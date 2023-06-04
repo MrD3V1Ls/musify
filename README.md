@@ -1,4 +1,4 @@
-# integrately-ab-testing
+# Musify
 
 ## Project setup
 ```
