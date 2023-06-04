@@ -1,0 +1,47 @@
+{
+  "name": "musify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "pages": "wrangler pages dev -- npx vue-cli-service serve --proxy 8080",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@progress/kendo-vue-dropdowns": "^3.7.3",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue": "^2.23.1",
+    "brain.js": "^2.0.0-beta.23",
+    "core-js": "^3.6.5",
+    "csv-parse": "^5.3.6",
+    "json-to-jsonl": "^1.1.0",
+    "mustache": "^4.2.0",
+    "pages": "^0.0.16",
+    "papaparse": "^5.3.2",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.2.40",
+    "vue-cookie": "^1.1.4",
+    "vue-cookies": "^1.8.1",
+    "vue-dropdowns": "^1.1.2",
+    "vue-json-csv": "^2.1.0",
+    "vue-router": "^4.0.0-0",
+    "vue-simple-search-dropdown": "^1.0.1",
+    "vue-table-dynamic": "^0.4.10",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-plugin-pwa": "~4.5.13",
+    "@vue/cli-plugin-router": "~4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "wrangler": "^2.1.12"
+  }
+}
